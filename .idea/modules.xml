@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlashcardGenerator.iml" filepath="$PROJECT_DIR$/.idea/modules/FlashcardGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlashcardGenerator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FlashcardGenerator_main.iml" group="FlashcardGenerator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlashcardGenerator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FlashcardGenerator_test.iml" group="FlashcardGenerator" />
     </modules>
   </component>
 </project>
