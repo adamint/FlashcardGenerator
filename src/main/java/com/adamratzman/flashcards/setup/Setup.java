@@ -77,8 +77,9 @@ public class Setup {
             }
         });
 
-
-
+        scene.lookup("#create-via-import").setOnMouseClicked(event -> {
+            // TODO allow import of properly-formatted flashcard text files
+        });
 
 
         stage.setScene(scene);

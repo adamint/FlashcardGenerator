@@ -6,6 +6,8 @@ public class Utils {
     public static void showAlert(Alert.AlertType alertType, String message) {
         Alert alert = new Alert(alertType);
         alert.setContentText(message);
+        alert.setHeaderText(null);
+        alert.setTitle("Flashcard Generator");
         alert.show();
     }
 }
