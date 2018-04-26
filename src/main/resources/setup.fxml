@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="777.0" prefWidth="1103.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="323.0" layoutY="68.0" text="Flashcard Generator 1.0">
+         <font>
+            <Font name="Arial Bold" size="40.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER" layoutY="212.0" prefHeight="200.0" prefWidth="343.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="43.0" prefWidth="355.0" text="Flashcard Creation Options" textAlignment="CENTER">
+               <font>
+                  <Font name="System Italic" size="23.0" />
+               </font>
+            </Label>
+            <Hyperlink id="create-via-program" alignment="CENTER" contentDisplay="CENTER" text="Via Program" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink id="create-via-import" alignment="CENTER" contentDisplay="CENTER" text="Import" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Hyperlink>
+         </children>
+      </VBox>
+      <Hyperlink id="created-flashcards" layoutX="38.0" layoutY="715.0" prefHeight="29.0" prefWidth="207.0" text="Created Flashcards: (0)">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Hyperlink>
+      <Pane id="creation-pane" layoutX="323.0" layoutY="141.0" prefHeight="562.0" prefWidth="724.0">
+         <children>
+            <Label layoutX="179.0" layoutY="135.0" text="Please select a creation option!">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</Pane>
