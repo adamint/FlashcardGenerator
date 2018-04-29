@@ -33,7 +33,7 @@
             </Hyperlink>
          </children>
       </VBox>
-      <Hyperlink id="created-flashcards" layoutX="38.0" layoutY="715.0" prefHeight="29.0" prefWidth="207.0" text="Created Flashcards: (0)">
+      <Hyperlink id="created-flashcards" layoutX="38.0" layoutY="715.0" prefHeight="38.0" prefWidth="398.0" text="Preview, Remove, and Export Flashcards: (0)">
          <font>
             <Font size="19.0" />
          </font>
@@ -47,5 +47,10 @@
             </Label>
          </children>
       </Pane>
+      <Hyperlink id="start-game" layoutX="889.0" layoutY="714.0" prefHeight="41.0" prefWidth="125.0" text="Start game">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Hyperlink>
    </children>
 </Pane>
