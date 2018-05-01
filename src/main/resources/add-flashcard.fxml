@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="646.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="213.0" layoutY="41.0" text="Add a flashcard">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="65.0" layoutY="128.0" prefHeight="30.0" prefWidth="68.0" text="Question" />
+      <TextArea id="question-text" layoutX="153.0" layoutY="120.0" prefHeight="47.0" prefWidth="407.0" promptText="Enter the question here.." />
+      <Label alignment="CENTER" layoutX="76.0" layoutY="182.0" prefHeight="30.0" prefWidth="44.0" text="Hint" textAlignment="RIGHT" />
+      <TextField id="hint-text" layoutX="153.0" layoutY="182.0" prefHeight="31.0" prefWidth="407.0" promptText="Enter a hint here.. (Optional)!" />
+      <Label alignment="CENTER" layoutX="53.0" layoutY="227.0" prefHeight="30.0" prefWidth="92.0" text="Add answer" textAlignment="RIGHT" />
+      <TextField id="answer-text" layoutX="153.0" layoutY="227.0" prefHeight="31.0" prefWidth="407.0" promptText="Press enter to add an answer! Enter it again to remove" />
+      <VBox id="answers-vb" alignment="TOP_CENTER" layoutX="80.0" layoutY="298.0" prefHeight="132.0" prefWidth="172.0">
+         <children>
+            <Label alignment="CENTER" text="Answers:" textAlignment="CENTER">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label id="no-answers" alignment="CENTER" text="None!" textAlignment="CENTER">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Button id="add-flashcard" layoutX="432.0" layoutY="317.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="127.0" text="Add flashcard" />
+      <Button id="clear-fields" layoutX="306.0" layoutY="317.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="109.0" text="Clear Fields" />
+   </children>
+</Pane>
