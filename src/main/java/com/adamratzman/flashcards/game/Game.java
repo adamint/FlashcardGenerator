@@ -1,12 +1,8 @@
 package com.adamratzman.flashcards.game;
 
 import com.adamratzman.flashcards.models.Flashcard;
-import javafx.scene.Scene;
-import javafx.scene.input.MouseEvent;
-import javafx.stage.Stage;
 
 import java.util.ArrayList;
-import java.util.Locale;
 
 public class Game {
     private ArrayList<Flashcard> flashcards;
