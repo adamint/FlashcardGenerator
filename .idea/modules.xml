@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FlashcardGenerator.iml" filepath="$PROJECT_DIR$/FlashcardGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlashcardGenerator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FlashcardGenerator_main.iml" group="FlashcardGenerator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlashcardGenerator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FlashcardGenerator_test.iml" group="FlashcardGenerator" />
+    </modules>
+  </component>
+</project>
