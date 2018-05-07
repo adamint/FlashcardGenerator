@@ -16,7 +16,6 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
@@ -138,7 +137,8 @@ public class Setup {
         });
 
         scene.lookup("#start-game").setOnMouseClicked(event -> {
-            if (flashcards.size() == 0) Utils.showAlert(Alert.AlertType.ERROR, "You need at least one flashcard to start the game!");
+            if (flashcards.size() == 0)
+                Utils.showAlert(Alert.AlertType.ERROR, "You need at least one flashcard to start the game!");
             else {
                 new Game(flashcards);
             }
@@ -159,17 +159,17 @@ public class Setup {
 
     private Parent getFlashcardPane() {
         try {
-            return FXMLLoader.load(getClass().getResource("/add-flashcard.fxml")) ;
+            return FXMLLoader.load(getClass().getResource("/add-flashcard.fxml"));
         } catch (IOException e) {
             e.printStackTrace();
             return null;
         }
     }
+
     private Parent getImportPane() {
         try {
             return FXMLLoader.load(getClass().getResource("/import.fxml"));
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
             return null;
         }
