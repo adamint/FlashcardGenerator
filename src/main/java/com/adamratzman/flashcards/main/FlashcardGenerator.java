@@ -12,4 +12,5 @@ public class FlashcardGenerator extends Application {
     public void start(Stage primaryStage) throws Exception {
         new Setup(primaryStage);
     }
+
 }
