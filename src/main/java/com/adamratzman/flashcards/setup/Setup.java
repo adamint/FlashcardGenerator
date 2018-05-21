@@ -141,6 +141,7 @@ public class Setup {
                 Utils.showAlert(Alert.AlertType.ERROR, "You need at least one flashcard to start the game!");
             else {
                 new Game(flashcards);
+                stage.close();
             }
         });
 
