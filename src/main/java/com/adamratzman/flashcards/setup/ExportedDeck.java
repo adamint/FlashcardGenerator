@@ -4,6 +4,11 @@ import com.adamratzman.flashcards.models.Flashcard;
 
 import java.util.List;
 
+/**
+ * {@code exportTime} calculates the amount of time it takes to export flashcards.
+ * <br>
+ * {@code flashcards} is an ArrayList that holds a set of flashcards to be exported.
+ */
 public class ExportedDeck {
     private long exportTime;
     private List<Flashcard> flashcards;

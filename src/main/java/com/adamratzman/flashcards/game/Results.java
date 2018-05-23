@@ -9,6 +9,13 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/**
+ * Creates a new stage and scene after the game has ended.
+ * <br>
+ * The results stage gives the game statistics at the end of the game.
+ * <br>
+ * Has a button play-again that allows user to restart the game.
+ */
 public class Results {
     public Results(int correct, int total, ArrayList<Flashcard> flashcards) {
         try {
@@ -31,6 +38,13 @@ public class Results {
         }
     }
 
+    /**
+     * This method returns the margin of error.
+     * <br>
+     * @param correct comes from contructor and keeps track of how many correct answers there are.
+     * @param total comes from the amount of flashcards in the ArrayList.
+     * @return margin of error.
+     */
     private float getME(int correct, int total) {
         float mean = correct / ((float) total);
         float deviations = 0f;
