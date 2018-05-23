@@ -1,6 +1,5 @@
 package com.adamratzman.flashcards.setup;
 
-import com.adamratzman.flashcards.game.Game;
 import com.adamratzman.flashcards.models.Flashcard;
 import com.adamratzman.flashcards.utils.Utils;
 import javafx.fxml.FXMLLoader;
@@ -39,7 +38,8 @@ public class Preview {
             render();
 
             scene.lookup("#export").setOnMouseClicked(event -> {
-                if (flashcards.size() == 0) Utils.showAlert(Alert.AlertType.ERROR, "You need at least one flashcard to export");
+                if (flashcards.size() == 0)
+                    Utils.showAlert(Alert.AlertType.ERROR, "You need at least one flashcard to export");
                 else {
                     FileChooser exportFileChooser = new FileChooser();
                     exportFileChooser.getExtensionFilters()
