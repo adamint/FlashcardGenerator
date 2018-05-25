@@ -9,10 +9,10 @@ import java.util.stream.Collectors;
 
 public class Utils {
     /**
-     * Display an alert with the specified type
+     * Display an alert with the specified type.
      *
-     * @param alertType The seriousness of the alert
-     * @param message   What is to be displayed
+     * @param alertType The seriousness of the alert.
+     * @param message   What is to be displayed.
      */
     public static void showAlert(Alert.AlertType alertType, String message) {
         Alert alert = new Alert(alertType);
@@ -23,10 +23,10 @@ public class Utils {
     }
 
     /**
-     * Given a VBox, construct a list of answers
+     * Given a VBox, construct a list of answers.
      *
-     * @param vb the JavaFX VBox containing answers
-     * @return List of answers at this moment
+     * @param vb the JavaFX VBox containing answers.
+     * @return List of answers at this moment.
      */
     public static ArrayList<String> getAnswers(VBox vb) {
         // Uses the stream api to remove unnecessary LOCs. None! and Answers: are not valid answers (what's displayed)

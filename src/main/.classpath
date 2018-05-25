@@ -3,8 +3,8 @@
 	<classpathentry kind="src" path="java"/>
 	<classpathentry kind="src" path="resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="/FlashcardGenerator_main/java"/>
-	<classpathentry kind="src" path="/FlashcardGenerator_main/resources"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Gradle: com.google.code.gson:gson:2.8.2"/>
+	<classpathentry exported="true" kind="src" path="/FlashcardGenerator_main/java"/>
+	<classpathentry exported="true" kind="src" path="/FlashcardGenerator_main/resources"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/Gradle: com.google.code.gson:gson:2.8.2"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
